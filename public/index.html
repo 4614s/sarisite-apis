@@ -4,12 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport"
      content="width=device-width, initial-scale=1.0">  
-   <title translate="no">SARISİTE APIs </title>
+   <title translate="no">SARISİTE API</title>
+   <script src="https://cdn.tailwindcss.com">
+   </script>
   </head>
-  <body >
-    Bu bir demodur. <br>
-    Ama Sarısitenin backende ihtiyacı olduğu için bu site yapıldı.   
-    <br>
-    Sarısite İçin Backend Developer Aranıyor... (İnstagram @SarisiteninKurucusu DMden yazın.)
-  </body>
+  <body class="selection:bg-gray-900 selection:text-yellow-400 bg-gray-900 text-white font-mono">
+   <header class="p-[5px] border-b-2 border-gray-600 font-sans">
+     <h1 class="text-[2rem] font-bold">
+       <span class="text-yellow-500">
+         SARISİTE
+       </span> 
+       <span class="text-gray-400">
+         API
+       </span>
+       </h1>
+   </header>
+   <main>
+     
+     <article class="text-center">
+       <p class="m-[0.8rem]">Sarısitenin arka tarafındasın. Burası front-endciler için değil. 😎</p>
+     </article>
+     
+    <article class="my-[15px] mx-[10px] bg-gray-800 p-[12px] rounded-[6px] text-center">
+      <h2 class=" text-white text-2xl font-bold mb-[7px]">
+        Back-end developer aranıyor
+      </h2>
+      <p>
+        Sarısite api işlerine girişince doğal olarak back-end tarafına girdi ve bizde back-end developer lazım oldu. <br> <br>
+        Başvuru için iletişim bilgileri: <br>
+      </p>
+       <a class="underline decoration-gray-400"
+       href="mailto:sarisiteyt@gmail.com"> E-posta: sarisiteyt@gmail.com </a><br>
+      <a class="underline decoration-gray-400" href="https://www.instagram.com/sarisiteninkurucusu?igsh=MWJkbGprN2JxeHM3Zw==">İnstagram: @sarisiteninkurucusu </a>
+
+    </article>
+     
+     <article class="my-[15px] mx-[10px] bg-gray-800 p-[12px] rounded-[6px] font-bold">
+       <h2  class=" text-white text-1xl font-bold mb-[7px]">Durum:</h2>
+     <div class="flex">
+     <div class="w-[15px] h-[15px] rounded-full bg-red-500 mt-[4px] mr-[3px]"></div> Sarısite Kapalı
+     </div>
+     </article>
+     
+     <h1 class="text-[1.05rem] text-center font-bold m-[30px]">Ne bekliyorsun burada birşey yok! Çünkü bizde backendci yok 😔 </h1>
+     
+   </main>
+  
+  <footer class="text-center border-t-2 border-gray-500 p-[4vw]">
+    <p id="copyright" class="text-md font-bold"></p>
+  </footer>
+   <script>
+     let guncelYil = new Date().getFullYear();
+     document.querySelector("#copyright").innerHTML = `© ${guncelYil}`;
+   </script>
+ </body>
 </html>
